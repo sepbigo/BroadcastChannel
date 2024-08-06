@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh.cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Your content goes here -->
+
+    <!-- Pagination navigation -->
+    <div class="pagination">
+        <button id="prevPage" onclick="changePage(-1)" disabled>Previous</button>
+        <span id="pageInfo">Page 1 of 5</span>
+        <button id="nextPage" onclick="changePage(1)">Next</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
